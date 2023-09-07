@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'NeoDunggeunmoPro-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/NeoDunggeunmoPro-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'NeoDunggeunmoPro-Regular';
+}
+
+h1{
+    letter-spacing: 2px;
+    font-size:50px;
+    margin-bottom: 20px;;
+}
+
+.background {
+    display: grid;
+    place-items: center;
+    width: 600px;
+    height: 900px;
+    margin-inline: 25%;
+    background-color: rgba(219, 233, 217, 0.651);
+
+}
+
+p {
+    margin: 0px 25px;
+
+}
+
+input {
+    width: 90px;
+    height: 90px;
+    font-size: 50px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    text-align: center;
+    margin: 5px;
+}
+
+button {
+    background-color: #77af9c;
+    color: #d7fff1;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    font-size: large;
+    transition: 0.25s;
+    letter-spacing: 2px;
+}
+    
+button:hover {
+    letter-spacing: 3px;
+    transform: scale(1.05);
+    cursor: pointer;
+}
